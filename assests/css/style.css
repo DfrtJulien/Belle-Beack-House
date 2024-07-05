@@ -51,9 +51,10 @@ header h1 {
     font-size: 2.5em;
 }
 
-header hr {
-    width: 154px;
-    margin: auto;
+ hr {
+    width: 105px;
+    margin:  auto;
+    margin-bottom: 25px;
     height: 5px;
     background-color: rgb(248, 69, 114);
     border: none;
@@ -77,10 +78,8 @@ header img {
 /******************************** FIRST SECTION **********************/
 
 .tittle {
-    border-bottom: 5px solid rgb(248, 69, 114);
-    width: 103px;
     margin: auto;
-    margin-bottom: 30px;
+    text-align: center;
 }
 
 .caption {
@@ -88,7 +87,9 @@ header img {
     color: rgb(248, 69, 114);
 }
 
-.container-l p, .caption {
+.container-l p,
+.container-s p,
+.caption {
     font-size: 1.2em;
 }
 
@@ -100,6 +101,12 @@ header img {
 .img-container-l img, .img-container-s img {
     border-radius: 15px;
     box-shadow: 9px 6px 0px 5px #a5ace0d7;
+}
+
+/******************************** SECOND SECTION **********************/
+
+.container-fluid p {
+    padding: 15px;
 }
 
 @media screen and (min-width: 768px){
@@ -140,4 +147,8 @@ header img {
     }
 
 
+
+    .container-fluid p {
+        text-align: center;
+    }
 }
