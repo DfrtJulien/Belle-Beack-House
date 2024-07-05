@@ -11,6 +11,10 @@
     width: 100%;
 }
 
+.container-s {
+    width: 100%;
+}
+
 .container-m {
     width: 100%;
     margin: auto;
@@ -19,6 +23,13 @@
 .container-l {
     width: 100%;
     margin: auto;
+}
+
+.flex-md {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
 }
 
 li {
@@ -41,7 +52,7 @@ header h1 {
 }
 
 header hr {
-    width: 40%;
+    width: 154px;
     margin: auto;
     height: 5px;
     background-color: rgb(248, 69, 114);
@@ -63,6 +74,34 @@ header img {
     margin-bottom: 35px;
 }
 
+/******************************** FIRST SECTION **********************/
+
+.tittle {
+    border-bottom: 5px solid rgb(248, 69, 114);
+    width: 103px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.caption {
+    text-align: center;
+    color: rgb(248, 69, 114);
+}
+
+.container-l p, .caption {
+    font-size: 1.2em;
+}
+
+.img-container-l, .img-container-s {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.img-container-l img, .img-container-s img {
+    border-radius: 15px;
+    box-shadow: 9px 6px 0px 5px #a5ace0d7;
+}
+
 @media screen and (min-width: 768px){
 
     .container-fluid{
@@ -74,6 +113,10 @@ header img {
         margin: auto;
     }
     
+    .container-s {
+        width: 45%;
+    }
+
     .container-l {
         width: 95%;
         margin: auto;
@@ -81,13 +124,20 @@ header img {
 
 /******************* HEADER **************/
 
-    header hr {
-        width: 8%;
-    }
-
     .img-container-header {
         width: 20%;
         margin: auto;
     }
+
+/******************************** FIRST SECTION **********************/
+
+    .img-container-l {
+        width: 40%;
+    }
+
+    .img-container-s {
+        width: 30%;
+    }
+
 
 }
